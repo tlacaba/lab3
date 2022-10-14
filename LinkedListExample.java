@@ -20,7 +20,7 @@ class LinkedList {
      */
     public void prepend(int value) {
         // Just add at the beginning
-        this.root = new Node(value, this.root);
+        this.root = new Node(value, this.root); //do we need to make the new Node's next value this.root in a separate line from assigning the new node to be the root?
     }
     /**
      * Adds the value to the _end_ of the list
